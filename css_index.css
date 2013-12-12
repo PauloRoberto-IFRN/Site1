@@ -13,7 +13,7 @@ body{
 
 /*----------------------------------------------*/
 hr{
-	width: 60%;
+	width: 65%;
 	background: #009999;
 	height: 2px;
 }
@@ -28,22 +28,27 @@ header{
 
 /*----------------------------------------------*/
 #logo{
-	width: 150px;
-	height: 150px;
+	width: 160px;
+	height: 160px;
 	float: left;
 	background-color: #0088A1;
 	border-radius: 100px;
-	margin: 5px 0 0 10px;
+	margin: 15px 0 0 20px;
 	font-family: arial;
 }
 
 #logo h1{
-	margin-left: 24px;
-	margin-top: 33px;
+	margin-left: 20px;
+	margin-top: 32px;
+	font-size: 40px;
+	color: #ddd;
 }
 
 #logo span{
-	font-family: ;	
+	font-family: Informal Roman;
+	font-size: 40px;
+	margin: 32px;
+	color: #FFFF66;
 }
 
 /*----------------------------------------------*/
@@ -73,7 +78,7 @@ nav ul li a{
 	background-color: #079;
 	color: #ffffff;
 	padding: 8px;
-	margin: 15px;
+	margin: 8px;
 
 }
  
@@ -115,10 +120,11 @@ section #content{
 #left, #center, #right img{
 	width: 320px;
 	height: 162px;
+	border-radius: 10px;
 }
 
 .title{
-	font-family: Arial;
+	font-family: Verdana;
 	font-size: 22px;
 	text-align: center;
 }
@@ -147,13 +153,14 @@ text-align: center;
 
 /*------------------------------------------------------------*/
 h2{
-margin: 20px 119px;
+margin: 20px;
+text-align: center;
 font-family: Arial;
 font-size: 30px;
 }
 
 p#colab{
 width: 1024px;
-margin-left: 119px;
+text-align: left;
 font-family: Arial;
 }
